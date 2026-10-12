@@ -4,71 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Yehor Voronov - Software Engineer">
-    <title>Home - Yehor Voronov</title>
+    <meta name="description" content="Yehor Voronov is a New York-based full-stack software engineer building production web applications with React, TypeScript, and Node.js.">
+    <link rel="canonical" href="https://yehorvoronov.github.io/">
+    <title>Yehor Voronov | Full-Stack Software Engineer</title>
     <link rel="icon" href="./assets/favicon.ico">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/Home.css">
 </head>
 
 <body>
-    <div class="min-h-screen flex flex-col justify-center items-center bg-gray-900 px-4 sm:px-8 lg:px-20">
-        <div class="text-center max-w-3xl w-full">
-            <!-- Logo and Name Section -->
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">Yehor Voronov</h1>
-            <p class="text-lg sm:text-xl text-gray-300 mt-2 mb-8">Software Engineer | Building Scalable Systems</p>
-            <div class="flex justify-center gap-8 flex-wrap">
-                <a href="mailto:yehorvoronov70@gmail.com"
-                    class="text-blue-400 hover:text-blue-500 flex items-center space-x-3 transition-colors text-lg sm:text-xl">
-                    <i class="fas fa-envelope text-xl"></i>
-                    <span class="font-medium">Email</span>
-                </a>
-                <a href="https://www.linkedin.com/in/yehor-voronov-1a8338225/"
-                    class="text-blue-400 hover:text-blue-500 flex items-center space-x-3 transition-colors text-lg sm:text-xl">
-                    <i class="fab fa-linkedin text-xl"></i>
-                    <span class="font-medium">LinkedIn</span>
-                </a>
-                <a href="https://github.com/YehorVoronov/"
-                    class="text-blue-400 hover:text-blue-500 flex items-center space-x-3 transition-colors text-lg sm:text-xl">
-                    <i class="fab fa-github text-xl"></i>
-                    <span class="font-medium">GitHub</span>
-                </a>
-                <a href="cv.html"
-                    class="text-blue-400 hover:text-blue-500 flex items-center space-x-3 transition-colors text-lg sm:text-xl">
-                    <i class="fas fa-file-alt text-xl"></i>
-                    <span class="font-medium">Resume</span>
-                </a>
+    <header class="site-header">
+        <nav class="nav wrap" aria-label="Main navigation">
+            <a class="wordmark" href="./index.html">Yehor Voronov</a>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#interests">Interests</a>
+                <a class="nav-contact" href="mailto:yehorvoronov70@gmail.com">Contact</a>
             </div>
+        </nav>
+    </header>
 
-             <!-- Showcase Your Developed Websites -->
-             <div class="mt-12">
-                <h2 class="text-2xl text-white font-bold mb-6">Personal Websites</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Website 4 -->
-                    <a href="https://amazon-clone-ten-wine-52.vercel.app" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg flex items-center space-x-3 transition duration-300">
-                        <i class="fas fa-globe text-2xl"></i>
-                        <span class="text-xl font-semibold">Amazon Clone - Website</span>
-                    </a>
-                   <!-- Website 3 -->
-                    <a href="https://netflix-clone-15278.web.app" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg flex items-center space-x-3 transition duration-300">
-                        <i class="fas fa-globe text-2xl"></i>
-                        <span class="text-xl font-semibold">Netflix Clone - Website</span>
-                    </a>
-                    <!-- Website 2 -->
-                    <a href="https://yehorvoronov.github.io/kinomonsterBootstrap" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg flex items-center space-x-3 transition duration-300">
-                        <i class="fas fa-globe text-2xl"></i>
-                        <span class="text-xl font-semibold">Movie - Website 2.0</span>
-                    </a>
-                    <!-- Website 3 -->
-                    <a href="https://yehorvoronov.github.io/kinomonsterHTMLCSS" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white p-2 rounded-lg shadow-lg flex items-center space-x-3 transition duration-300">
-                        <i class="fas fa-globe text-2xl"></i>
-                        <span class="text-xl font-semibold">Movie - Website</span>
-                    </a>
+    <main>
+        <section class="intro wrap" id="about">
+            <p class="eyebrow">FULL-STACK SOFTWARE ENGINEER <span>·</span> NEW YORK, NY</p>
+            <h1>Thoughtful software.<br><span>Built end to end.</span></h1>
+            <p class="intro-copy">I build and ship production web applications, from product requirements and architecture through testing and deployment. My work spans customer-facing platforms and the operational systems behind them.</p>
+            <p class="specialty-line">React · TypeScript · Node.js <span>/</span> AI-accelerated development <span>/</span> Open to remote and hybrid roles</p>
+            <div class="action-links">
+                <a class="button button-primary" href="https://www.linkedin.com/in/yehor-voronov-1a8338225/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="https://github.com/YehorVoronov/" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+
+        <section class="proof-band" aria-label="Selected experience highlights">
+            <div class="proof-grid wrap">
+                <div><strong>5+ years</strong><span>Building web products</span></div>
+                <div><strong>40%</strong><span>Faster load speeds delivered</span></div>
+                <div><strong>ERP / MES</strong><span>Built solo for manufacturing</span></div>
+                <div><strong>4 languages</strong><span>English · Ukrainian · Polish · Russian</span></div>
+            </div>
+        </section>
+
+        <section class="content-section wrap" id="experience">
+            <div class="section-heading"><p class="eyebrow">WORK</p><h2>Experience</h2></div>
+            <div class="experience-list">
+                <article class="experience-row">
+                    <div class="role-meta"><h3>Software Engineer</h3><p>ME. Mobile Ecosystems <span>·</span> Remote</p></div>
+                    <p class="role-date">Jun 2023 – Present</p>
+                    <p class="role-summary">Own full-stack delivery across production applications. Improved API and page performance by 40%, strengthened test coverage, and automated release workflows with CI/CD.</p>
+                </article>
+                <article class="experience-row">
+                    <div class="role-meta"><h3>Software Engineer, Volunteer</h3><p>AnnieCannons <span>·</span> United States</p></div>
+                    <p class="role-date">Jul 2025</p>
+                    <p class="role-summary">Modernized a production React codebase, moving class components to functional components and hooks across a TypeScript and Node.js stack.</p>
+                </article>
+                <article class="experience-row">
+                    <div class="role-meta"><h3>Junior Web Developer</h3><p>SoCast Digital <span>·</span> Toronto</p></div>
+                    <p class="role-date">May – Jul 2023</p>
+                    <p class="role-summary">Built and maintained React, WordPress, and PHP applications; worked on automated browser tests and MySQL performance.</p>
+                </article>
+                <article class="experience-row">
+                    <div class="role-meta"><h3>Software Engineer</h3><p>Freelance Web Solutions <span>·</span> Hybrid</p></div>
+                    <p class="role-date">2021 – Mar 2023</p>
+                    <p class="role-summary">Delivered full-stack marketplace and e-commerce work using React, Redux Toolkit, Express, MySQL, Shopify, and Flask.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects-section" id="projects">
+            <div class="wrap">
+                <div class="section-heading"><p class="eyebrow">SELECTED BUILDS</p><h2>Projects</h2></div>
+                <div class="project-grid">
+                    <article class="project-item">
+                        <p class="project-type">E-COMMERCE · NEXT.JS</p>
+                        <h3>Commerce platform</h3>
+                        <p>Responsive storefront with secure sign-in, Stripe checkout, dynamic cart, and Firebase-backed order history.</p>
+                        <a class="text-link" href="https://amazon-clone-ten-wine-52.vercel.app" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="project-item">
+                        <p class="project-type">STREAMING · REACT</p>
+                        <h3>Subscription streaming platform</h3>
+                        <p>React and Firebase app with Google authentication, TMDB-powered content, and Stripe subscription billing.</p>
+                        <a class="text-link" href="https://netflix-clone-15278.web.app" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="project-item project-featured">
+                        <p class="project-type">MANUFACTURING · ERP / MES</p>
+                        <h3>Production operations platform</h3>
+                        <p>Built independently for a precision-machining manufacturer, covering job tracking, inventory, and production scheduling.</p>
+                        <span class="project-note">End-to-end product delivery</span>
+                    </article>
+                </div>
+                <div class="older-projects">
+                    <span>More projects</span>
+                    <a href="https://yehorvoronov.github.io/kinomonsterBootstrap" target="_blank" rel="noopener noreferrer">Movie site · Bootstrap <span aria-hidden="true">↗</span></a>
+                    <a href="https://yehorvoronov.github.io/kinomonsterHTMLCSS" target="_blank" rel="noopener noreferrer">Movie site · HTML / CSS <span aria-hidden="true">↗</span></a>
                 </div>
             </div>
+        </section>
 
+        <section class="content-section wrap skills-section" aria-labelledby="skills-title">
+            <div class="section-heading"><p class="eyebrow">TOOLKIT</p><h2 id="skills-title">What I work with</h2></div>
+            <dl class="skills-list">
+                <div><dt>Frontend</dt><dd>React · Next.js · TypeScript · Vue.js</dd></div>
+                <div><dt>Backend</dt><dd>Node.js · Express · GraphQL · Python · PHP</dd></div>
+                <div><dt>Data & delivery</dt><dd>PostgreSQL · MySQL · MongoDB · Docker · GitHub Actions · Jest · Selenium</dd></div>
+                <div><dt>AI-assisted workflow</dt><dd>GitHub Copilot · Claude · GPT · Gemini</dd></div>
+            </dl>
+            <p class="ai-note">I use AI tools for drafting, refactoring, test scaffolding, and review. I remain responsible for the architecture, decisions, and shipped code.</p>
+        </section>
+
+        <section class="interests-section" id="interests">
+            <div class="wrap">
+                <div class="section-heading"><p class="eyebrow">OUTSIDE THE BUILD</p><h2>Curious about how businesses work.</h2></div>
+                <div class="interest-grid">
+                    <article class="interest-card interest-card-personal">
+                        <p class="eyebrow">PERSONAL INTERESTS</p>
+                        <h3>Technology, products, and the businesses behind them.</h3>
+                        <p>Outside software, I enjoy learning how companies operate and how technology shapes the markets they serve.</p>
+                    </article>
+                    <article class="interest-card interest-card-finance">
+                        <p class="eyebrow">FINANCE &amp; RESEARCH</p>
+                        <h3>Independent equity research</h3>
+                        <p>I enjoy studying public companies, especially in technology and data storage. My recent research note examines Quantum Corporation (NASDAQ: QMCO).</p>
+                        <a class="text-link" href="./qmco-equity-research.html">Read my QMCO equity research <span aria-hidden="true">→</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <span>Yehor Voronov <span class="footer-dot">·</span> New York, NY</span>
+            <div><a href="mailto:yehorvoronov70@gmail.com">Email</a><a href="https://www.linkedin.com/in/yehor-voronov-1a8338225/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
